@@ -4,4 +4,4 @@ from flask_cors import CORS, cross_origin
 
 login_manager = LoginManager()
 db = MongoEngine()
-cors = CORS(resources={r"/api/*": {"origins": "*"}})
+cors = CORS(resources={r"/api/*": {"origins": "http://localhost:3000"}})
